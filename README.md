@@ -1,4 +1,4 @@
-# BO + NN + CDU Benchmark Suite
+# BO-CDUNN Benchmark Suite
 
 > Constrained Dual Unrolling (CDU) for constrained optimization, with Optuna (TPE)
 > hyperparameter search, benchmarked against an IPOPT fixed-initialization baseline
