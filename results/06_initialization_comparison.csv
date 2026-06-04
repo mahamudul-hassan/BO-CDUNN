@@ -1,0 +1,15 @@
+﻿Problem,Method,Initialization,Best_K,Best_rho,Best_lr,Best_f,Feasible,Total_CV,Rel_Gap_wrt_other,Time_ms
+Branin,BO+CDU,Bayesian TPE + CDU (Optuna),3,100.0,0.0001,0.397887,True,0.000000,0.966883,35069
+Branin,IPOPT_fixed,"[1, 1, ..., 1] fixed",N/A,N/A,N/A,12.014483,False,0.000000,29.195688,40
+Himmelblau,BO+CDU,Bayesian TPE + CDU (Optuna),5,100.0,0.01,65.040999,True,0.000000,0.000631,41291
+Himmelblau,IPOPT_fixed,"[1, 1, ..., 1] fixed",N/A,N/A,N/A,65.000000,False,0.000000,0.000630,70
+Rosenbrock,BO+CDU,Bayesian TPE + CDU (Optuna),5,100.0,0.05,0.145623,True,0.000000,0.000110,36843
+Rosenbrock,IPOPT_fixed,"[1, 1, ..., 1] fixed",N/A,N/A,N/A,0.145607,False,0.000000,0.000110,14
+PressureVessel,BO+CDU,Bayesian TPE + CDU (Optuna),3,100.0,0.05,37.613825,True,0.000000,0.001835,66638
+PressureVessel,IPOPT_fixed,"[1, 1, ..., 1] fixed",N/A,N/A,N/A,37.544932,False,0.000000,0.001832,58
+GearTrain,BO+CDU,Bayesian TPE + CDU (Optuna),8,1000.0,0.001,-30583.890104,True,0.000000,0.002663,58635
+GearTrain,IPOPT_fixed,"[1, 1, ..., 1] fixed",N/A,N/A,N/A,-30665.546859,False,0.000000,0.002670,77
+G06,BO+CDU,Bayesian TPE + CDU (Optuna),8,100.0,0.01,-6944.093503,True,0.000000,0.002545,37481
+G06,IPOPT_fixed,"[1, 1, ..., 1] fixed",N/A,N/A,N/A,-6961.813899,False,0.000000,0.002552,50
+WeldedBeam,BO+CDU,Bayesian TPE + CDU (Optuna),3,100.0,0.005,1.794090,True,0.000000,0.100254,52669
+WeldedBeam,IPOPT_fixed,"[1, 1, ..., 1] fixed",N/A,N/A,N/A,1.630614,False,0.000000,0.091119,25

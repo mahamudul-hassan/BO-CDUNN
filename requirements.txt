@@ -1,0 +1,8 @@
+jax
+jaxlib
+optax
+optuna
+numpy
+matplotlib
+tqdm
+casadi
